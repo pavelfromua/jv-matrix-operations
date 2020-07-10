@@ -47,8 +47,8 @@ public class MatrixOperation {
             int[] current = matrix[i];
             Arrays.sort(current);
 
-            if (result < current[current.length-1]) {
-                result = current[current.length-1];
+            if (result < current[current.length - 1]) {
+                result = current[current.length - 1];
             }
         }
 
